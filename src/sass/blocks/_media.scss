@@ -1,0 +1,24 @@
+@media (max-width: 1200px) {
+}
+@media (max-width: 991px) {
+  .container {
+    max-width: 750px;
+  }
+  .promo {
+    &__header {
+      font-size: 35px;
+    }
+    &__subheader {
+      font-size: 21px;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .promo {
+    &__wrapper {
+      align-items: center;
+    }
+  }
+}
+@media (max-width: 575px) {
+}
